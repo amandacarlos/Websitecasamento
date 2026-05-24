@@ -193,6 +193,7 @@ function selectAmount(amt, el) {
   const pixKey = 'amandaevitor2026@gmail.com';
   const content = document.getElementById('modalContent');
   const currentH3 = content.querySelector('h3').outerHTML;
+  const giftKey = Object.keys(giftData).find(k => giftData[k].amounts && giftData[k].amounts.includes(amt));
   content.innerHTML = `
     ${currentH3}
     <p>Envie R$ ${amt},00 para a chave Pix abaixo:</p>
@@ -201,7 +202,7 @@ function selectAmount(amt, el) {
       <button class="pix-copy" onclick="copyPix('${pixKey}', this)">Copiar</button>
     </div>
     <p style="font-size:0.75rem;color:#AEAEB2;text-align:center">Chave Pix (e-mail) — Valor: R$ ${amt},00</p>
-    <button onclick="openGift('${Object.keys(giftData).find(k => giftData[k].amounts && giftData[k].amounts.includes(amt))}'" style="background:none;border:none;color:#AEAEB2;font-size:0.75rem;cursor:pointer;margin-top:0.5rem;text-decoration:underline;">← Escolher outro valor</button>
+    <button onclick="openGift('${giftKey}')" style="background:none;border:none;color:#AEAEB2;font-size:0.75rem;cursor:pointer;margin-top:0.5rem;text-decoration:underline;">← Escolher outro valor</button>
   `;
 }
 
