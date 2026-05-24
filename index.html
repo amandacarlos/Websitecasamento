@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Amanda & Vitor — Nosso Casamento</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <span class="nav-logo">A & V</span>
+      <ul class="nav-links">
+        <li><a href="#historia">Nossa História</a></li>
+        <li><a href="#galeria">Galeria</a></li>
+        <li><a href="#presentes">Presentes</a></li>
+        <li><a href="#rsvp">Confirmar</a></li>
+      </ul>
+      <button class="nav-toggle" aria-label="Menu" id="navToggle">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-content">
+      <p class="hero-pre">Convidamos você para celebrar</p>
+      <h1 class="hero-names">Amanda<span>&</span>Vitor</h1>
+      <p class="hero-date">14 de Fevereiro de 2026</p>
+      <p class="hero-place">Espaço Villa Jardim — São Paulo, SP</p>
+      <div class="countdown" id="countdown">
+        <div class="countdown-item"><span id="days">--</span><label>dias</label></div>
+        <div class="countdown-sep">:</div>
+        <div class="countdown-item"><span id="hours">--</span><label>horas</label></div>
+        <div class="countdown-sep">:</div>
+        <div class="countdown-item"><span id="minutes">--</span><label>minutos</label></div>
+        <div class="countdown-sep">:</div>
+        <div class="countdown-item"><span id="seconds">--</span><label>segundos</label></div>
+      </div>
+      <a href="#rsvp" class="btn-primary">Confirmar Presença</a>
+    </div>
+    <div class="hero-scroll">
+      <span>role para baixo</span>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+    </div>
+  </section>
+
+  <!-- NOSSA HISTÓRIA -->
+  <section id="historia">
+    <div class="section-inner">
+      <div class="section-header">
+        <p class="section-label">Como tudo começou</p>
+        <h2>Nossa História</h2>
+      </div>
+      <div class="timeline">
+        <div class="timeline-item" data-aos="fade-up">
+          <div class="timeline-dot"></div>
+          <div class="timeline-year">2019</div>
+          <div class="timeline-card">
+            <h3>O Primeiro Encontro</h3>
+            <p>Nos conhecemos numa tarde de sábado, numa livraria no centro da cidade. Vitor tentou recomendar um livro, Amanda discordou educadamente — e assim começou tudo.</p>
+          </div>
+        </div>
+        <div class="timeline-item" data-aos="fade-up">
+          <div class="timeline-dot"></div>
+          <div class="timeline-year">2020</div>
+          <div class="timeline-card">
+            <h3>O Primeiro Beijo</h3>
+            <p>Depois de meses de conversas intermináveis, chegou a noite certa. Numa varanda, sob chuva fina, no melhor clichê possível.</p>
+          </div>
+        </div>
+        <div class="timeline-item" data-aos="fade-up">
+          <div class="timeline-dot"></div>
+          <div class="timeline-year">2022</div>
+          <div class="timeline-card">
+            <h3>Nossa Casa</h3>
+            <p>Decidimos morar juntos. Dois sofás, três gatos de pelúcia e uma planta que ainda estamos tentando não matar.</p>
+          </div>
+        </div>
+        <div class="timeline-item" data-aos="fade-up">
+          <div class="timeline-dot"></div>
+          <div class="timeline-year">2024</div>
+          <div class="timeline-card">
+            <h3>O Pedido</h3>
+            <p>Vitor preparou uma surpresa com ajuda de toda a família. Amanda disse sim antes mesmo de ver o anel.</p>
+          </div>
+        </div>
+        <div class="timeline-item timeline-item--highlight" data-aos="fade-up">
+          <div class="timeline-dot timeline-dot--large"></div>
+          <div class="timeline-year">2026</div>
+          <div class="timeline-card">
+            <h3>Para Sempre</h3>
+            <p>E agora chegou a hora de celebrar com as pessoas que mais amamos. Obrigados por fazerem parte dessa história.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALERIA -->
+  <section id="galeria">
+    <div class="section-inner">
+      <div class="section-header">
+        <p class="section-label">Nossos momentos</p>
+        <h2>Galeria</h2>
+      </div>
+      <div class="gallery-grid">
+        <div class="gallery-item gallery-item--tall">
+          <div class="gallery-placeholder">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>
+            <span>Foto 1</span>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <div class="gallery-placeholder">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>
+            <span>Foto 2</span>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <div class="gallery-placeholder">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>
+            <span>Foto 3</span>
+          </div>
+        </div>
+        <div class="gallery-item gallery-item--wide">
+          <div class="gallery-placeholder">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>
+            <span>Foto 4</span>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <div class="gallery-placeholder">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>
+            <span>Foto 5</span>
+          </div>
+        </div>
+        <div class="gallery-item gallery-item--tall">
+          <div class="gallery-placeholder">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>
+            <span>Foto 6</span>
+          </div>
+        </div>
+      </div>
+      <p class="gallery-note">As fotos do ensaio serão adicionadas em breve.</p>
+    </div>
+  </section>
+
+  <!-- PRESENTES -->
+  <section id="presentes">
+    <div class="section-inner">
+      <div class="section-header">
+        <p class="section-label">Sua presença já é o maior presente</p>
+        <h2>Lista de Presentes</h2>
+      </div>
+      <p class="gifts-intro">Se quiser nos presentear, contribua com nossa lista. Cada item representa um sonho que queremos construir juntos.</p>
+      <div class="gifts-grid">
+        <div class="gift-card" data-aos="fade-up">
+          <div class="gift-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 9h18v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V9z"/><path d="M3 9l2.45-4.9A2 2 0 0 1 7.24 3h9.52a2 2 0 0 1 1.8 1.1L21 9"/><path d="M12 3v6"/></svg>
+          </div>
+          <h3>Lua de Mel</h3>
+          <p>Contribuição para nossa viagem dos sonhos pela Europa.</p>
+          <span class="gift-value">R$ 200,00</span>
+          <button class="btn-gift" onclick="openGift('lua-de-mel')">Presentear</button>
+        </div>
+        <div class="gift-card" data-aos="fade-up">
+          <div class="gift-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+          </div>
+          <h3>Nossa Casa</h3>
+          <p>Ajude a decorar o novo lar com itens do nosso sonho.</p>
+          <span class="gift-value">R$ 150,00</span>
+          <button class="btn-gift" onclick="openGift('nossa-casa')">Presentear</button>
+        </div>
+        <div class="gift-card" data-aos="fade-up">
+          <div class="gift-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M18 8h1a4 4 0 0 1 0 8h-1"/><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"/><line x1="6" y1="1" x2="6" y2="4"/><line x1="10" y1="1" x2="10" y2="4"/><line x1="14" y1="1" x2="14" y2="4"/></svg>
+          </div>
+          <h3>Jogo de Jantar</h3>
+          <p>Um belo jogo de jantar completo para receber com estilo.</p>
+          <span class="gift-value">R$ 350,00</span>
+          <button class="btn-gift" onclick="openGift('jantar')">Presentear</button>
+        </div>
+        <div class="gift-card" data-aos="fade-up">
+          <div class="gift-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          </div>
+          <h3>Experiências</h3>
+          <p>Contribuição para experiências e aventuras a dois.</p>
+          <span class="gift-value">R$ 100,00</span>
+          <button class="btn-gift" onclick="openGift('experiencias')">Presentear</button>
+        </div>
+        <div class="gift-card" data-aos="fade-up">
+          <div class="gift-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+          </div>
+          <h3>Smart TV</h3>
+          <p>Para as noites de filme no conforto do nosso lar.</p>
+          <span class="gift-value">R$ 500,00</span>
+          <button class="btn-gift" onclick="openGift('tv')">Presentear</button>
+        </div>
+        <div class="gift-card gift-card--pix" data-aos="fade-up">
+          <div class="gift-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="5" width="20" height="14" rx="2"/><line x1="2" y1="10" x2="22" y2="10"/></svg>
+          </div>
+          <h3>Pix Livre</h3>
+          <p>Contribuição livre para o que mais precisarmos.</p>
+          <span class="gift-value">Qualquer valor</span>
+          <button class="btn-gift" onclick="openGift('pix')">Copiar Chave Pix</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- RSVP -->
+  <section id="rsvp">
+    <div class="section-inner rsvp-inner">
+      <div class="rsvp-text">
+        <p class="section-label">Queremos sua presença</p>
+        <h2>Confirme sua Presença</h2>
+        <p>Por favor confirme até <strong>14 de janeiro de 2026</strong>.</p>
+        <div class="rsvp-details">
+          <div class="rsvp-detail">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+            <div>
+              <strong>Data</strong>
+              <span>14 de Fevereiro de 2026, às 18h</span>
+            </div>
+          </div>
+          <div class="rsvp-detail">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <div>
+              <strong>Local</strong>
+              <span>Espaço Villa Jardim<br>Rua das Flores, 100 — São Paulo</span>
+            </div>
+          </div>
+          <div class="rsvp-detail">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.35 2 2 0 0 1 3.59 1h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9a16 16 0 0 0 6 6l.71-.71a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 21.73 16z"/></svg>
+            <div>
+              <strong>Dúvidas</strong>
+              <span>amandaevitor2026@gmail.com</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="rsvp-form-wrap">
+        <form id="rsvpForm" class="rsvp-form" novalidate>
+          <div class="form-group">
+            <label for="name">Seu nome completo</label>
+            <input type="text" id="name" name="name" placeholder="Ex: Maria Oliveira" required />
+            <span class="form-error" id="nameError"></span>
+          </div>
+          <div class="form-group">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" placeholder="maria@email.com" required />
+            <span class="form-error" id="emailError"></span>
+          </div>
+          <div class="form-group">
+            <label for="guests">Número de acompanhantes</label>
+            <select id="guests" name="guests">
+              <option value="0">Vou sozinho(a)</option>
+              <option value="1">+ 1 acompanhante</option>
+              <option value="2">+ 2 acompanhantes</option>
+              <option value="3">+ 3 acompanhantes</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label>Você vai comparecer?</label>
+            <div class="radio-group">
+              <label class="radio-label">
+                <input type="radio" name="attending" value="yes" required /> Sim, com certeza!
+              </label>
+              <label class="radio-label">
+                <input type="radio" name="attending" value="no" /> Infelizmente não poderei
+              </label>
+            </div>
+            <span class="form-error" id="attendingError"></span>
+          </div>
+          <div class="form-group">
+            <label for="message">Mensagem para os noivos (opcional)</label>
+            <textarea id="message" name="message" placeholder="Deixe um recado carinhoso..."></textarea>
+          </div>
+          <div class="form-group">
+            <label>Restrição alimentar?</label>
+            <div class="checkbox-group">
+              <label class="checkbox-label"><input type="checkbox" name="diet" value="vegetariano" /> Vegetariano</label>
+              <label class="checkbox-label"><input type="checkbox" name="diet" value="vegano" /> Vegano</label>
+              <label class="checkbox-label"><input type="checkbox" name="diet" value="gluten" /> Sem glúten</label>
+              <label class="checkbox-label"><input type="checkbox" name="diet" value="lactose" /> Sem lactose</label>
+            </div>
+          </div>
+          <button type="submit" class="btn-primary btn-full">Enviar Confirmação</button>
+        </form>
+        <div id="rsvpSuccess" class="rsvp-success" hidden>
+          <div class="success-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polyline points="20 6 9 17 4 12"/></svg>
+          </div>
+          <h3>Recebemos sua confirmação!</h3>
+          <p>Mal podemos esperar para celebrar com você.</p>
+          <p class="success-name" id="successName"></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer id="footer">
+    <div class="footer-inner">
+      <p class="footer-names">Amanda & Vitor</p>
+      <p class="footer-date">14 · 02 · 2026</p>
+      <p class="footer-copy">Feito com amor &hearts; para o dia mais especial das nossas vidas</p>
+    </div>
+  </footer>
+
+  <!-- MODAL PRESENTE -->
+  <div class="modal-overlay" id="giftModal" hidden>
+    <div class="modal">
+      <button class="modal-close" onclick="closeGift()" aria-label="Fechar">&times;</button>
+      <div class="modal-content" id="modalContent"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
